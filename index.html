@@ -22,7 +22,10 @@
 <meta name="twitter:title" content="Freegras — Limpieza de sistemas de extracción para cocinas">
 <meta name="twitter:description" content="Campanas, conductos y turbinas. Urgencias 24/7, mantenimiento certificado en Madrid.">
 <meta name="twitter:image" content="https://nexusforgeia.github.io/WHITEMOON-360-FREEGRAS/assets/og.jpg">
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700;800&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preload" as="image" fetchpriority="high" href="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1200&q=68&auto=format&fit=crop">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
 <script src="assets/config.js?v=6"></script>
 <style>
   :root{
@@ -237,7 +240,7 @@
 
 <!-- RIESGO -->
 <section class="blk"><div class="wrap split">
-  <div class="imgbox" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/Image-GP.png')"></div>
+  <div class="imgbox lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/Image-GP.png"></div>
   <div>
     <div class="kicker">El riesgo de la grasa acumulada</div>
     <h2>Garantice la seguridad y el cumplimiento legal</h2>
@@ -255,9 +258,9 @@
 <section class="blk" id="servicios"><div class="wrap">
   <div style="text-align:center"><div class="kicker">Lo que hacemos</div><h2>Servicios especializados en extracción</h2></div>
   <div class="grid3">
-    <div class="scard"><div class="ph" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/IMAGEN-MODELO-3.png')"></div><div class="b"><h3>Limpieza de sistemas de extracción</h3><p>Campanas, conductos y turbinas. Desengrase total y certificado de limpieza.</p></div></div>
-    <div class="scard"><div class="ph" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/IMAGEN-MODELO-5.png')"></div><div class="b"><h3>Recogida y limpieza de filtros</h3><p>Retirada, limpieza y reposición de filtros según convenga a tu cocina.</p></div></div>
-    <div class="scard"><div class="ph" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/IMAGEN-MODELO-7.png')"></div><div class="b"><h3>Instalación y reformas</h3><p>Soluciones a medida para campanas, motores y conductos de extracción.</p></div></div>
+    <div class="scard"><div class="ph lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/IMAGEN-MODELO-3.png"></div><div class="b"><h3>Limpieza de sistemas de extracción</h3><p>Campanas, conductos y turbinas. Desengrase total y certificado de limpieza.</p></div></div>
+    <div class="scard"><div class="ph lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/IMAGEN-MODELO-5.png"></div><div class="b"><h3>Recogida y limpieza de filtros</h3><p>Retirada, limpieza y reposición de filtros según convenga a tu cocina.</p></div></div>
+    <div class="scard"><div class="ph lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/IMAGEN-MODELO-7.png"></div><div class="b"><h3>Instalación y reformas</h3><p>Soluciones a medida para campanas, motores y conductos de extracción.</p></div></div>
   </div>
 </div></section>
 
@@ -309,17 +312,17 @@
       <li><span class="t">✓</span><span>Cobertura en Las Rozas y toda la Comunidad de Madrid.</span></li>
     </ul>
   </div>
-  <div class="imgbox" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/Group-1000008596.png')"></div>
+  <div class="imgbox lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/Group-1000008596.png"></div>
 </div></section>
 
 <!-- GALERÍA -->
 <section class="blk" style="background:var(--bg2)"><div class="wrap">
   <div style="text-align:center"><div class="kicker">Galería</div><h2>Nuestros trabajos</h2></div>
   <div class="gal">
-    <div class="g" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/bg-1.jpg')"></div>
-    <div class="g" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/bg-1-1.jpg')"></div>
-    <div class="g" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/bg-3.jpg')"></div>
-    <div class="g" style="background-image:url('https://freegras.es/wp-content/uploads/2025/12/Hover-1.jpg')"></div>
+    <div class="g lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/bg-1.jpg"></div>
+    <div class="g lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/bg-1-1.jpg"></div>
+    <div class="g lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/bg-3.jpg"></div>
+    <div class="g lz" data-bg="https://freegras.es/wp-content/uploads/2025/12/Hover-1.jpg"></div>
   </div>
 </div></section>
 
@@ -402,19 +405,27 @@
 
   // HERO SLIDER (fotos: reales de Freegras + Unsplash cocinas industriales)
   const IMGS = [
-    'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1500&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1500&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1500&q=80&auto=format&fit=crop',
-    'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=1500&q=80&auto=format&fit=crop'
+    'https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=1200&q=68&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&q=68&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=68&auto=format&fit=crop',
+    'https://images.unsplash.com/photo-1590846406792-0adc7f938f1d?w=1200&q=68&auto=format&fit=crop'
   ];
   const slidesEl=$('slides'), dotsEl=$('dots');
   IMGS.forEach((u,i)=>{
-    const s=document.createElement('div'); s.className='slide'+(i===0?' on':''); s.style.backgroundImage=`url('${u}')`; slidesEl.appendChild(s);
+    const s=document.createElement('div'); s.className='slide'+(i===0?' on':'');
+    if(i===0) s.style.backgroundImage=`url('${u}')`;   // solo la 1ª al inicio (LCP)
+    slidesEl.appendChild(s);
     const d=document.createElement('span'); if(i===0)d.className='on'; d.addEventListener('click',()=>go(i)); dotsEl.appendChild(d);
   });
-  let cur=0; const slides=slidesEl.children, dots=dotsEl.children;
-  function go(n){ slides[cur].classList.remove('on'); dots[cur].classList.remove('on'); cur=n; slides[cur].classList.add('on'); dots[cur].classList.add('on'); }
-  setInterval(()=>go((cur+1)%IMGS.length), 4200);
+  const slides=slidesEl.children, dots=dotsEl.children; let cur=0;
+  function ensure(n){ if(!slides[n].style.backgroundImage) slides[n].style.backgroundImage=`url('${IMGS[n]}')`; }
+  function go(n){ ensure(n); slides[cur].classList.remove('on'); dots[cur].classList.remove('on'); cur=n; slides[cur].classList.add('on'); dots[cur].classList.add('on'); }
+  function startSlider(){ setInterval(()=>go((cur+1)%IMGS.length), 4600); }
+  if(document.readyState==='complete') startSlider(); else addEventListener('load',startSlider);
+
+  // lazy-load de imágenes de fondo below-the-fold
+  const io=new IntersectionObserver((es,o)=>{es.forEach(e=>{ if(e.isIntersecting){ const el=e.target; el.style.backgroundImage=`url('${el.dataset.bg}')`; o.unobserve(el);} });},{rootMargin:'400px 0px'});
+  document.querySelectorAll('.lz').forEach(el=>io.observe(el));
 
   // burger
   $('burger').addEventListener('click',()=>$('menu').classList.toggle('open'));
