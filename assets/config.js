@@ -76,5 +76,5 @@ window.WM360_CONFIG = {
   AGENTE_SALUDO: "¡Hola! Soy el asistente de Freegras. ¿En qué puedo ayudarte? Si es una urgencia, dímelo y lo priorizamos.",
 
   // --- Reseñas ---
-  REVIEW_LINK: "https://www.google.com/maps/search/?api=1&query=Freegras+Las+Rozas",
+  REVIEW_LINK: "https://maps.app.goo.gl/zavQrmtEjQXyeaym8",
 };
