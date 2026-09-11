@@ -203,6 +203,10 @@
   .chat input:focus{outline:none;border-color:var(--lime-d)}
   .chat .send{background:var(--lime);border:none;color:var(--dark);border-radius:10px;padding:0 16px;cursor:pointer;font-weight:800}
   .chat .send:disabled{opacity:.5}
+  @media(max-width:600px){
+    .chat{left:12px;right:12px;bottom:12px;top:auto;width:auto;max-width:none;height:72vh;max-height:none}
+    .fab{right:16px;bottom:16px;width:54px;height:54px}
+  }
 
   @media(max-width:900px){
     .menu{display:none} .burger{display:block}
